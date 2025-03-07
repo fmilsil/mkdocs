@@ -1,0 +1,39 @@
+#Configuración del sitio
+site_name: Repositorio de las prácticas de Francisco Milán Siles
+repo_url: "https://github.com/fmilsil"
+
+#Cambios para el tema
+theme: 
+    name: "material"
+    palette:
+      primary: yellow
+      accent: amber
+    font:
+      text: Open Sans
+    language: es
+
+    features:
+      # Carga instantánea de las páginas
+      - navigation.instant
+      # Ancla de navegación para seguir la sección activa
+      - navigation.tracking
+      # Menús expandibles en la navegación
+      - navigation.expand
+      # Funciones de búsqueda mejoradas
+      - search.suggest
+      - search.highlight
+      # Oculta la cabecera al hacer scroll
+      - header.autohide
+      # Agrega un pie de página con navegación
+      - navigation.footer
+
+#Configuración para la barra de navegación
+nav:
+    - Principal: index.md
+    - Prácticas:
+        #Lista de las prácticas con sus respectivas enlaces
+        - "Práctica 5.4 - Instalación de una página web con DockerFile y DockerCompose": p54.md
+        - "Práctica 5.2 - Instalación de Wordpress con DockerFile y DockerCompose": p52.md
+        - "Práctica 5.1 - Instalación de PretaShop con DockerFile y DockerCompose": p51.md
+
+
